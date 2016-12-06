@@ -155,12 +155,12 @@ footer .copyright {
 }
 
 a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
+  display: auto;
+  text-indent: 9px;
+  margin: auto;
   width: 30px;
   height: 30px;
-  background-size: 30px 30px;
+  padding: 10px;
   opacity: .5;
   transition: all .25s;
 }

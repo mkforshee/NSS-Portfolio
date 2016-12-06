@@ -10,9 +10,19 @@
   </head>
 
   <body>
+
     <header>
      <img src="http://placeimg.com/200/200/tech/grayscale" alt="Margaret Forshee, UI/UX Designer" class="profile-image">
-     <h1>Direct to me message:</h1>
+     <div class="main-nav">
+         <ul class="nav">
+           <li class="name">Margaret Forshee</li>
+           <li><a href="index.html">Portfolio</a></li>
+           <li><a href="about.html" target="_blank">About</a></li>
+           <li><a href="contact.html" target="_blank">Contact</a></li>
+         </ul>
+     </div>
+
+     <h1>Send me a message:</h1>
    </header>
 
   <!--  <div class="main-nav">
@@ -26,21 +36,29 @@
 
     <form>
       <div class="form-group">
-        <label for="exampleInputEmail1">Name</label>
-        <input type="name" class="form-control" id="exampleInputEmail1" placeholder="What do people call you">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="Name">
       </div>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="sample@me.org">
+        <input type="email" class="form-control" id="exampleInputEmail1">
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Message</label>
-        <input type="message" class="form-control" id="exampleInputPassword1" placeholder="What can I help you with?">
+        <input type="message" class="form-control" id="message">
       </div>
       <div class='form-complete'>
-      <button type="submit" class="submit">Submit</button>
+      <button type="submit" class="submit">Send</button>
       </div>
     </form>
 
+    <footer>
+      <div class="socials">
+        <a href="http://twitter.com/mkforshee" target="_" class="social twitter">Twitter</a>
+        <a href="https://www.linkedin.com/in/margaret-forshee-b7206810?authType=&authToken=&trk=" target="_" class="social linkedin">LinkedIn</a>
+        <a href="https://github.com/mkforshee" target="_" class="social github">Github</a>
+      </div>
+      <p class="copyright">Copyright 2016, Margaret Forshee</p>
+    </footer>
   </body>
 </html>
